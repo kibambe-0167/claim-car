@@ -59,5 +59,3 @@ class Preprocss():
         _standardScalerObj.fit(array)
         res = _standardScalerObj.transform(array)
         return res[0][0]
-    
-        
